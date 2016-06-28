@@ -1,3 +1,91 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	background-color: #C5C5C5;
+	font-family: sans-serif;
+	margin: 0;
+	/*position: relative;*/
+}
+
+section {
+	background-color: white;
+	width: 71%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.content {
+	width: 90%;
+	margin: auto;
+	padding-top: 20px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.click {
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	width: 15vw;
+	height: 6vw;
+	font-size: 18px;
+	display: inline-block;
+	margin-bottom: 20px;
+	vertical-align: middle;
+}
+
+#red-button {
+	background-color: #B20400;
+	margin-left: 20px;
+}
+
+#blue-button {
+	background-color: #4472EA;
+	margin-left: 10px;
+}
+
+#second {
+	height: 390px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+#img {
+	background-color: #424242;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	width: 90%;
+	height: 35vw;
+	margin: auto;
+	padding-top: 23%;
+}
+
+footer {
+	width: 100%;
+	height: 7vw;
+	background-color: #282828;
+	color: white;
+}
+
+#google {
+	float: right;
+	margin-left: 20px;
+	margin-right: 30px;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+#apple {
+	float: right;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 10px;
 }
